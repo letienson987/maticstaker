@@ -16,7 +16,7 @@ driver.get("https://seniorautomationtest.com/")
 time.sleep(3)
 
 service_button = self.driver.find_element_by_xpath('//a[@href="/services/"]')
-ele.click()
+service_button.click()
 
 time.sleep(3)
 self.assertEqual(//span[@class ='text-capitalize small font-weight-bold'].text, "DỊCH VỤ")
